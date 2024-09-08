@@ -1,0 +1,28 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MobileLogginSDK
+import Foundation
+@_exported import MobileLogginSDK
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@frozen public enum MobileLoggerResult : Swift.Equatable {
+  case success(Swift.String?)
+  case failure(Swift.String)
+  public static func == (a: MobileLogginSDK.MobileLoggerResult, b: MobileLogginSDK.MobileLoggerResult) -> Swift.Bool
+}
+public class MobileLogger {
+  public init()
+  @objc deinit
+}
+extension MobileLogginSDK.MobileLogger {
+  public func logMessage(string: Swift.String, completion: @escaping (MobileLogginSDK.MobileLoggerResult) -> Swift.Void)
+  public func logListOfMessages(from dictionary: [Swift.String : Swift.String], completion: @escaping (MobileLogginSDK.MobileLoggerResult) -> Swift.Void)
+  public func logMultipleMessages(strings: [Swift.String], completion: @escaping (MobileLogginSDK.MobileLoggerResult) -> Swift.Void)
+  public func logMessageIfValid(string: Swift.String, minLen: Swift.Int = 1, maxLen: Swift.Int = 1000, completion: @escaping (MobileLogginSDK.MobileLoggerResult) -> Swift.Void)
+  public func logMessageWithDelay(string: Swift.String, delay: Foundation.TimeInterval = 0, completion: @escaping (MobileLogginSDK.MobileLoggerResult) -> Swift.Void)
+  public func logMessageIfValidFormat(string: Swift.String, regex: Swift.String, completion: @escaping (MobileLogginSDK.MobileLoggerResult) -> Swift.Void)
+  public func getLogCurlCommand(for message: Swift.String, completion: (MobileLogginSDK.MobileLoggerResult) -> Swift.Void)
+}
+extension MobileLogginSDK.MobileLoggerResult : Swift.Sendable {}

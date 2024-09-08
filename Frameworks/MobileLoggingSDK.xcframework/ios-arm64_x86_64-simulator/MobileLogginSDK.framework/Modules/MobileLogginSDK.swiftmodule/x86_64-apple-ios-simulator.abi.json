@@ -1,0 +1,802 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobileLoggerResult",
+        "printedName": "MobileLoggerResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileLogginSDK.MobileLoggerResult.Type) -> (Swift.String?) -> MobileLogginSDK.MobileLoggerResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> MobileLogginSDK.MobileLoggerResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileLoggerResult",
+                        "printedName": "MobileLogginSDK.MobileLoggerResult",
+                        "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileLogginSDK.MobileLoggerResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileLoggerResult",
+                        "printedName": "MobileLogginSDK.MobileLoggerResult",
+                        "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15MobileLogginSDK0A12LoggerResultO7successyACSSSgcACmF",
+            "mangledName": "$s15MobileLogginSDK0A12LoggerResultO7successyACSSSgcACmF",
+            "moduleName": "MobileLogginSDK",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileLogginSDK.MobileLoggerResult.Type) -> (Swift.String) -> MobileLogginSDK.MobileLoggerResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> MobileLogginSDK.MobileLoggerResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileLoggerResult",
+                        "printedName": "MobileLogginSDK.MobileLoggerResult",
+                        "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileLogginSDK.MobileLoggerResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MobileLoggerResult",
+                        "printedName": "MobileLogginSDK.MobileLoggerResult",
+                        "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15MobileLogginSDK0A12LoggerResultO7failureyACSScACmF",
+            "mangledName": "$s15MobileLogginSDK0A12LoggerResultO7failureyACSScACmF",
+            "moduleName": "MobileLogginSDK",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobileLoggerResult",
+                "printedName": "MobileLogginSDK.MobileLoggerResult",
+                "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobileLoggerResult",
+                "printedName": "MobileLogginSDK.MobileLoggerResult",
+                "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MobileLogginSDK0A12LoggerResultO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15MobileLogginSDK0A12LoggerResultO2eeoiySbAC_ACtFZ",
+            "moduleName": "MobileLogginSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15MobileLogginSDK0A12LoggerResultO",
+        "mangledName": "$s15MobileLogginSDK0A12LoggerResultO",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "AccessControl",
+          "Frozen",
+          "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobileLogger",
+        "printedName": "MobileLogger",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MobileLogger",
+                "printedName": "MobileLogginSDK.MobileLogger",
+                "usr": "s:15MobileLogginSDK0A6LoggerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15MobileLogginSDK0A6LoggerCACycfc",
+            "mangledName": "$s15MobileLogginSDK0A6LoggerCACycfc",
+            "moduleName": "MobileLogginSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "logMessage",
+            "printedName": "logMessage(string:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileLogginSDK.MobileLoggerResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileLoggerResult",
+                    "printedName": "MobileLogginSDK.MobileLoggerResult",
+                    "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MobileLogginSDK0A6LoggerC10logMessage6string10completionySS_yAA0aD6ResultOctF",
+            "mangledName": "$s15MobileLogginSDK0A6LoggerC10logMessage6string10completionySS_yAA0aD6ResultOctF",
+            "moduleName": "MobileLogginSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logListOfMessages",
+            "printedName": "logListOfMessages(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileLogginSDK.MobileLoggerResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileLoggerResult",
+                    "printedName": "MobileLogginSDK.MobileLoggerResult",
+                    "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MobileLogginSDK0A6LoggerC17logListOfMessages4from10completionySDyS2SG_yAA0aD6ResultOctF",
+            "mangledName": "$s15MobileLogginSDK0A6LoggerC17logListOfMessages4from10completionySDyS2SG_yAA0aD6ResultOctF",
+            "moduleName": "MobileLogginSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logMultipleMessages",
+            "printedName": "logMultipleMessages(strings:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileLogginSDK.MobileLoggerResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileLoggerResult",
+                    "printedName": "MobileLogginSDK.MobileLoggerResult",
+                    "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MobileLogginSDK0A6LoggerC19logMultipleMessages7strings10completionySaySSG_yAA0aD6ResultOctF",
+            "mangledName": "$s15MobileLogginSDK0A6LoggerC19logMultipleMessages7strings10completionySaySSG_yAA0aD6ResultOctF",
+            "moduleName": "MobileLogginSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logMessageIfValid",
+            "printedName": "logMessageIfValid(string:minLen:maxLen:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileLogginSDK.MobileLoggerResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileLoggerResult",
+                    "printedName": "MobileLogginSDK.MobileLoggerResult",
+                    "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MobileLogginSDK0A6LoggerC17logMessageIfValid6string6minLen03maxK010completionySS_S2iyAA0aD6ResultOctF",
+            "mangledName": "$s15MobileLogginSDK0A6LoggerC17logMessageIfValid6string6minLen03maxK010completionySS_S2iyAA0aD6ResultOctF",
+            "moduleName": "MobileLogginSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logMessageWithDelay",
+            "printedName": "logMessageWithDelay(string:delay:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileLogginSDK.MobileLoggerResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileLoggerResult",
+                    "printedName": "MobileLogginSDK.MobileLoggerResult",
+                    "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MobileLogginSDK0A6LoggerC19logMessageWithDelay6string5delay10completionySS_SdyAA0aD6ResultOctF",
+            "mangledName": "$s15MobileLogginSDK0A6LoggerC19logMessageWithDelay6string5delay10completionySS_SdyAA0aD6ResultOctF",
+            "moduleName": "MobileLogginSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logMessageIfValidFormat",
+            "printedName": "logMessageIfValidFormat(string:regex:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileLogginSDK.MobileLoggerResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileLoggerResult",
+                    "printedName": "MobileLogginSDK.MobileLoggerResult",
+                    "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MobileLogginSDK0A6LoggerC23logMessageIfValidFormat6string5regex10completionySS_SSyAA0aD6ResultOctF",
+            "mangledName": "$s15MobileLogginSDK0A6LoggerC23logMessageIfValidFormat6string5regex10completionySS_SSyAA0aD6ResultOctF",
+            "moduleName": "MobileLogginSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLogCurlCommand",
+            "printedName": "getLogCurlCommand(for:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileLogginSDK.MobileLoggerResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MobileLoggerResult",
+                    "printedName": "MobileLogginSDK.MobileLoggerResult",
+                    "usr": "s:15MobileLogginSDK0A12LoggerResultO"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MobileLogginSDK0A6LoggerC17getLogCurlCommand3for10completionySS_yAA0aD6ResultOXEtF",
+            "mangledName": "$s15MobileLogginSDK0A6LoggerC17getLogCurlCommand3for10completionySS_yAA0aD6ResultOXEtF",
+            "moduleName": "MobileLogginSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15MobileLogginSDK0A6LoggerC",
+        "mangledName": "$s15MobileLogginSDK0A6LoggerC",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileLogginSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/MobileLoggingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1821,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/MobileLoggingManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1846,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/Request\/MobileLoggingPostRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 10,
+      "value": "\"myString\""
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/Request\/MobileLoggingPostRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 10,
+      "value": "\"myString\""
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/MobileLoggingConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 57,
+      "value": "\"https:\/\/us-central1-mobilesdklogging.cloudfunctions.net\""
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/Request\/MobileLoggingRequestProtocols.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/Request\/MobileLoggingRequestProtocols.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/Request\/MobileLoggingRequestProtocols.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/Request\/MobileLoggingRequestProtocols.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/Request\/MobileLoggingRequestProtocols.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/Request\/MobileLoggingRequestProtocols.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/Request\/MobileLoggingRequestProtocols.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/Request\/MobileLoggingRequestProtocols.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/MobileLoggerAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3481,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/MobileLoggerAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3506,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/innach\/Projects\/TestTasks\/MobiWeb\/MobileLogginSDK\/MobileLogginSDK\/MobileLoggerAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4288,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
