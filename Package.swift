@@ -20,7 +20,7 @@ let package = Package(
         .binaryTarget(
             name: "MobileLogginSDKPackage",
             url: "https://github.com/InnaChystiakova/MobileLoggingFramework/releases/download/v1.0.1/MobileLoggingSDK.xcframework.zip",
-            checksum: "04eaa9e7b01561803224f26fa05391bc0a3d343f240d8df9ccf40ff7cae2041b"
+            checksum: "b5a2d4c5ae4b7549e47870ed01901ee4ca1c06da67a8b4af8f129a70054f8c73"
         ),
     ]
 )
