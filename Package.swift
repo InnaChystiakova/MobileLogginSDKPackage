@@ -19,7 +19,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "MobileLogginSDKPackage",
-            url: "https://github.com/InnaChystiakova/MobileLoggingFramework/releases/download/v1.0/MobileLoggingSDK.xcframework.zip",
+            url: "https://github.com/InnaChystiakova/MobileLoggingFramework/releases/download/v1.0.1/MobileLoggingSDK.xcframework.zip",
             checksum: "04eaa9e7b01561803224f26fa05391bc0a3d343f240d8df9ccf40ff7cae2041b"
         ),
     ]
