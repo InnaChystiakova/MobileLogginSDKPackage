@@ -1,6 +1,0 @@
-framework module MobileLogginSDK {
-  umbrella header "MobileLogginSDK.h"
-  export *
-
-  module * { export * }
-}
